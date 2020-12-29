@@ -1,0 +1,15 @@
+.aboutMe {
+  color: white;
+  width: 80rem;
+  height: 52rem;
+  border: 1px solid rgb(107, 107, 107);
+  position: absolute;
+  background-color: rgb(44, 43, 43);
+  right: 10%;
+  top: 10%;
+  &__title {
+    position: relative;
+    top: 2rem;
+    left: 2rem;
+  }
+}
