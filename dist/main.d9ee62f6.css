@@ -77,6 +77,12 @@ body {
   font-weight: 300;
   float: left;
 }
+.card__h3--right-1 span {
+  margin-left: 2rem;
+  font-size: 2rem;
+  font-weight: 300;
+  float: left;
+}
 .card__list {
   color: white;
   font-size: 3rem;
@@ -120,12 +126,41 @@ body {
   position: absolute;
   background-color: #2c2b2b;
   right: 10%;
-  top: 10%;
+  top: 15%;
 }
 .aboutMe__title {
   position: relative;
   top: 2rem;
   left: 2rem;
+}
+.aboutMe__quote {
+  position: relative;
+  top: 3rem;
+}
+
+.project {
+  color: white;
+  width: 80rem;
+  height: 52rem;
+  border: 1px solid #6b6b6b;
+  position: absolute;
+  background-color: #2c2b2b;
+  right: 10%;
+  top: 85%;
+}
+.project__cards {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.project__card {
+  width: 40%;
+  height: 40%;
+  border: 1px solid #c9c9c9;
+  margin-right: 2rem;
 }
 
 /*# sourceMappingURL=/main.d9ee62f6.css.map */

@@ -1,0 +1,26 @@
+.project {
+  color: white;
+  width: 80rem;
+  height: 52rem;
+  border: 1px solid rgb(107, 107, 107);
+  position: absolute;
+  background-color: rgb(44, 43, 43);
+  right: 10%;
+  top: 85%;
+
+  &__cards {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__card {
+    width: 40%;
+    height: 40%;
+    border: 1px solid rgb(201, 201, 201);
+    margin-right: 2rem;
+  }
+}

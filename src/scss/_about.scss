@@ -6,10 +6,14 @@
   position: absolute;
   background-color: rgb(44, 43, 43);
   right: 10%;
-  top: 10%;
+  top: 15%;
   &__title {
     position: relative;
     top: 2rem;
     left: 2rem;
+  }
+  &__quote {
+    position: relative;
+    top: 3rem;
   }
 }
