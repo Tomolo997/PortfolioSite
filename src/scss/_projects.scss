@@ -2,10 +2,8 @@
   color: white;
   width: 80rem;
   height: 52rem;
-  border: 1px solid rgb(107, 107, 107);
   position: absolute;
-  background-color: rgb(44, 43, 43);
-  right: 10%;
+  right: 8%;
   top: 85%;
 
   &__cards {
@@ -18,9 +16,47 @@
   }
 
   &__card {
+    background-color: rgb(44, 43, 43);
+    border: 1px solid rgb(107, 107, 107);
+
     width: 40%;
     height: 40%;
-    border: 1px solid rgb(201, 201, 201);
-    margin-right: 2rem;
+    margin-right: 4rem;
+    &--h1 {
+      position: relative;
+      top: 1rem;
+      font-weight: 400;
+      font-size: 2.2rem;
+      left: 1rem;
+    }
+    &--text {
+      position: relative;
+      top: 1.5rem;
+      font-weight: 400;
+      font-size: 1.6rem;
+      left: 1.4rem;
+      width: 100%;
+    }
+    &--links {
+      position: relative;
+      top: 1.5rem;
+      font-weight: 100;
+      font-size: 1.6rem;
+      left: 1.4rem;
+      width: 100%;
+    }
+  }
+
+  &__text {
+    font-size: 1.6rem;
+    font-weight: 300;
+    width: 30rem;
+    line-height: 1.6;
+
+    &--link {
+      text-decoration: none;
+      color: white;
+      border-bottom: 1px solid white;
+    }
   }
 }

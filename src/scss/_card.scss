@@ -25,6 +25,15 @@
   &__h1 {
     font-size: 5rem;
     font-weight: 400;
+    &--projects {
+      font-size: 5rem;
+      font-weight: 400;
+      position: relative;
+      right: 2rem;
+      top: -2rem;
+
+      margin-right: 2rem;
+    }
   }
   &__about {
     color: white;
